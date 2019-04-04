@@ -15,7 +15,7 @@ def get_prefix(bot, msg):
     return commands.when_mentioned_or(*prefixes)(bot, msg)
 
 bot = commands.Bot(command_prefix=get_prefix)
-YOUTUBE_API = 'YOUR YOUTUBE API TOKEN HERE'
+YOUTUBE_API = 'AIzaSyAeCzDP2UZ7uw9eB5GltPnFJfZyWCUbrBY'
 
 
 bot.remove_command('help')
