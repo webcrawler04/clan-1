@@ -10,12 +10,12 @@ def get_prefix(bot, msg):
     """A callable Prefix for our bot. This could be edited to allow per server prefixes."""
 
     # Notice how you can use spaces in prefixes. Try to keep them simple though.
-    prefixes = ['tpd.']
+    prefixes = ['s.']
 
     return commands.when_mentioned_or(*prefixes)(bot, msg)
 
 bot = commands.Bot(command_prefix=get_prefix)
-YOUTUBE_API = 'AIzaSyAeCzDP2UZ7uw9eB5GltPnFJfZyWCUbrBY'
+YOUTUBE_API = 'aizasyaeczdp2uz7uw9eb5gltpnfjfzywcubrby'
 
 
 bot.remove_command('help')
